@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "CacheBrowser",
+  "description": "Browsing through the Google cache",
+  "version": "1.0",
+  "background": {
+    "page": "main.html"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "popup.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ]
+    }
+  ],
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+
+  "permissions" : [
+    "tabs"
+  ]
+}
