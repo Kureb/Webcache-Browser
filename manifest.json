@@ -9,14 +9,15 @@
   "content_scripts": [
     {
       "js": [
-        "popup.js"
+        "jquery-1.11.3.min.js", "popup.js"
       ],
       "matches": [
         "http://*/*",
         "https://*/*"
       ],
       "exclude_globs": [
-        "https://www.google.*"
+        "https://www.google.*",
+        "http://webcache.googleusercontent.com/*"
       ]
     }
   ],
