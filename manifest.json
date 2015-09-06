@@ -4,7 +4,7 @@
   "description": "Browsing through the Google cache",
   "version": "1.0",
   "background": {
-    "page": "main.html"
+    "page": "background.html"
   },
   "content_scripts": [
     {
