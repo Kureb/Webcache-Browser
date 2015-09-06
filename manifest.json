@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "js": [
-        "jquery-1.11.3.min.js", "notify.min.js", "popup.js"
+        "jquery-1.11.3.min.js", "notify.min.js", "cache.js"
       ],
       "matches": [
         "http://*/*",
@@ -21,7 +21,7 @@
       ]
     }
   ],
-  
+
   "browser_action": {
     "default_popup": "popup.html"
   },
