@@ -11,13 +11,16 @@
       "js": [
         "jquery-1.11.3.min.js", "popup.js"
       ],
+      "css": [
+        "error.css"
+      ],
       "matches": [
         "http://*/*",
         "https://*/*"
       ],
       "exclude_globs": [
-        "https://www.google.*",
-        "http://webcache.googleusercontent.com/*"
+        "*://www.google.*",
+        "*://webcache.googleusercontent.com/*"
       ]
     }
   ],
