@@ -9,7 +9,7 @@ As you may know, the fastest way to view a cached version of a webpage is to add
 But, if the page is dynamically generated, you may have a 404 error from Google Cache itself.
 Secondly, if you are on a Google cached page and you click on whatever link you find on the page, you will quit the cached version and go back to the original site, which may still be unavailable.
 
-With CacheBrowser, you no longer need to worry about this two points. You can click, click, click again, click a thousand times and you will still be redirected to the cached version except when it is possible. When the extension finds you will arrived on a 404 error of Google Cache itself, CacheBrowser let you where you are but notify you (in the top-right corner) that where is no cache available at this moment for this page.
+With CacheBrowser, you no longer need to worry about this two points. You can click, click, click again, click a thousand times and you will still be redirected to the cached version except when it is impossible. When the extension finds that you will arrived on a 404 error of Google Cache itself, CacheBrowser let you where you are but notify you (in the top-right corner) that where is no cache available at this moment for this page.
 
 
 ***
