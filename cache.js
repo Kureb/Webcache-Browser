@@ -15,10 +15,10 @@ function cacheCheck() {
  * its available, otherwise, warns the user with a notification
  */
 function cacheBrowsing() {
-  var searchBaseUrl = "http://webcache.googleusercontent.com/search?q=cache%3A";
   var currentUrl = window.location.href;
-  var fullVersion = '&strip=0&vwsrc=0';
-  var cacheViewUrl = searchBaseUrl + encodeURIComponent(currentUrl) + fullVersion;
+  var currentProtocol = window.location.protocol;
+  var searchBaseUrl = currentProtocol + "//webcache.googleusercontent.com/search?q=cache%3A";
+  var cacheViewUrl = searchBaseUrl + encodeURIComponent(currentUrl);
 
   /* Before making the redirection, check if
   * the request come back with no status code (404..)
