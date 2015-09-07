@@ -8,12 +8,12 @@
   "description": "Browsing through the Google cache",
   "version": "1.0",
   "background": {
-    "scripts": ["redirect.js"]
+    "scripts": ["js/redirect.js"]
   },
   "content_scripts": [
     {
       "js": [
-        "lib/jquery-1.11.3.min.js", "lib/notify.min.js", "cache.js"
+        "js/lib/jquery-1.11.3.min.js", "js/lib/notify.min.js", "js/cache.js"
       ],
       "matches": [
         "http://*/*",
