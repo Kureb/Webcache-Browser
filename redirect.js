@@ -5,5 +5,5 @@ chrome.runtime.onMessage.addListener(function (request, sender) {
 });
 
 chrome.runtime.onInstalled.addListener(function(details) {
-    chrome.storage.sync.set({'cache-browser': true});
+    chrome.storage.sync.set({'cache-browser': false});
 });
