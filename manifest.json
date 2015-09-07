@@ -1,6 +1,10 @@
 {
   "manifest_version": 2,
   "name": "CacheBrowser",
+  "icons": {
+    "128": "globe39-128.png",
+    "16": "globe39.png"
+  },
   "description": "Browsing through the Google cache",
   "version": "1.0",
   "background": {
@@ -24,7 +28,7 @@
 
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon": "globe39.png"
+    "default_title": "Cache Browser"
   },
 
   "permissions" : [
