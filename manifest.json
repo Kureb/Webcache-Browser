@@ -7,7 +7,7 @@
     "16": "icons/globe39.png"
   },
   "description": "__MSG_extDescription__",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "background": {
     "scripts": ["js/redirect.js", "js/menu.js"]
   },
