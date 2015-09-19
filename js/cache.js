@@ -43,3 +43,10 @@ function cacheBrowsing() {
 
 /* When the page is loaded, we call the cacheCheck function */
 cacheCheck();
+
+/* Looking if somebody clicks on the context menu */
+chrome.extension.onMessage.addListener(function (message, sender, callback) {
+    if (message.functiontoInvoke == "cache") {
+        cacheBrowsing();
+    }
+});
