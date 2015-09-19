@@ -35,7 +35,7 @@ If you have just the need to see the cached version of the current page without 
 It is planned to add some others features like :
 * Autodetection option : If a webpage is not found, CacheBrowser will automatically redirect to the cached version
 * Use of others cache services like Wayback Machine and/or Coral CDN
-* Internationalization (i18n) :   Adapt the extension to various langages
+* <s>Internationalization (i18n) :   Adapt the extension to various languages</s> : Done in 1.2.0
 
 ***
 
