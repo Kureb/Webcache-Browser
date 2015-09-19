@@ -20,16 +20,24 @@ Install it from [insert chrome market link when it's released]. You will now hav
 
 If you want to enable the feature, you have to click on the extension's icon and select the checkbox. From this moment CacheBrowser is active. If you are done, you can disable it by the same way : click on the icon and unselect the checkbox.
 
+![checkbox](https://cloud.githubusercontent.com/assets/3968618/9743325/fc696488-5665-11e5-8836-33b64cb1b307.png)
+
+If you have just the need to see the cached version of the current page without lost some time to enable, reload, dowhateveryouwantonthepage, disable, you also have the possibility to be redirect directly through the item in the context menu.
+
+![contextMenu](https://cloud.githubusercontent.com/assets/3968618/9977986/92b61dd2-5f1c-11e5-8bb9-d32c324319ab.png)
+
+
+
 ***
 
 **What's next ?**
 
-It is planned to add some others features like : 
+It is planned to add some others features like :
 * Autodetection option : If a webpage is not found, CacheBrowser will automatically redirect to the cached version
 * Use of others cache services like Wayback Machine and/or Coral CDN
 * Internationalization (i18n) :   Adapt the extension to various langages
 
-*** 
+***
 
 **What's impossible ?**
 
