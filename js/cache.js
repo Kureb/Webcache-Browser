@@ -36,7 +36,7 @@ function cacheBrowsing() {
     },
     error: function() {
       // page does not exist
-      $.notify("Sorry, no cache is available for this page.", "warn", { clickToHide: true, autoHide: false });
+      $.notify(chrome.i18n.getMessage("noCacheAvailable"), "warn", { clickToHide: true, autoHide: false });
     }
   });
 }

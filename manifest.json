@@ -1,11 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "CacheBrowser",
+  "name": "__MSG_extName__",
+  "default_locale": "en",
   "icons": {
     "128": "icons/globe39-128.png",
     "16": "icons/globe39.png"
   },
-  "description": "Browsing through the Google cache",
+  "description": "__MSG_extDescription__",
   "version": "1.1.0",
   "background": {
     "scripts": ["js/redirect.js", "js/menu.js"]
@@ -28,7 +29,7 @@
 
   "browser_action": {
     "default_popup": "popup.html",
-    "default_title": "Cache Browser"
+    "default_title": "__MSG_extName__"
   },
 
   "permissions" : [

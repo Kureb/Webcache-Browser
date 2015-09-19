@@ -1,0 +1,27 @@
+{
+  "extName": {
+    "message": "Webcache browser",
+    "description": "Extension name (doesn't really need to be translate)"
+  },
+
+  "extDescription": {
+    "message": "Browsing through the Google cache",
+    "description": "Description of the extension"
+  },
+
+  "noCacheAvailable": {
+    "message": "Sorry, no cache is available for this page.",
+    "description": "String inside the popup when no cache available"
+  },
+
+  "contextMenu": {
+    "message": "View cached version",
+    "description": "String displayed in the context menu"
+  },
+
+  "checkBoxCacheBrosing": {
+    "message": "Enable cache browsing ?",
+    "description": "Ask user to enable/disable"
+  }
+
+}

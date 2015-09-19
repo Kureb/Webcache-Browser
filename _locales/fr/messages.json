@@ -1,0 +1,27 @@
+{
+  "extName": {
+    "message": "Webcache browser",
+    "description": "Nom de l'extension"
+  },
+
+  "extDescription": {
+    "message": "Naviguer à travers le cache web de Google",
+    "description": "Description de l'extension"
+  },
+
+  "noCacheAvailable": {
+    "message": "Désolé, aucun cache actuellement disponible pour cette page",
+    "description": "Message qui s'affiche dans la notification lorsqu'aucun cache n'est disponible"
+  },
+
+  "contextMenu": {
+    "message": "Voir le cache de cette page",
+    "description": "Message dans le menu contextuel"
+  },
+
+  "checkBoxCacheBrosing": {
+    "message": "Activer la navigation dans le cache ?",
+    "description": "Permet d'activer/désactiver"
+  }
+
+}
