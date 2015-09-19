@@ -19,7 +19,7 @@
     "description": "String displayed in the context menu"
   },
 
-  "checkBoxCacheBrosing": {
+  "checkBoxCacheBrowsing": {
     "message": "Enable cache browsing ?",
     "description": "Ask user to enable/disable"
   }

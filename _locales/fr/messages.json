@@ -19,7 +19,7 @@
     "description": "Message dans le menu contextuel"
   },
 
-  "checkBoxCacheBrosing": {
+  "checkBoxCacheBrowsing": {
     "message": "Activer la navigation dans le cache ?",
     "description": "Permet d'activer/désactiver"
   }
