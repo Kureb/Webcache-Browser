@@ -27,13 +27,16 @@ If you have just the need to see the cached version of the current page without 
 ![contextMenu](https://cloud.githubusercontent.com/assets/3968618/9977986/92b61dd2-5f1c-11e5-8bb9-d32c324319ab.png)
 
 
+The **autodetection** option allows you to browse normally th internet, until you reach a unavailable page. At this moment, CacheBrowser will detect it and redirect you to the cached version if it exists.
+
+
 
 ***
 
 **What's next ?**
 
 It is planned to add some others features like :
-* Autodetection option : If a webpage is not found, CacheBrowser will automatically redirect to the cached version
+* <s>Autodetection option : If a webpage is not found, CacheBrowser will automatically redirect to the cached version</s> : Done in 1.3.0
 * Use of others cache services like Wayback Machine and/or Coral CDN
 * <s>Internationalization (i18n) :   Adapt the extension to various languages</s> : Done in 1.2.0
 
@@ -47,8 +50,8 @@ I am unable to automatically change all links of a page by the cached version be
 
 **Copyright**
 
-* Icons made by Freepik from www.flaticon.com is licensed by CC BY 3.0
-* Use of Javascript librairie JQuery under MIT license (https://jquery.com/)
-* Use of Javascript librairie Notify under MIT licence (http://notifyjs.com/)
+* Icons made by Freepik from [flaticon](www.flaticon.com "flaticon") is licensed by CC BY 3.0
+* Use of Javascript librairie [JQuery](https://jquery.org "jquery") under MIT license
+* Use of Javascript librairie [Notify](http://notifyjs.com/ "notify") under MIT license
 
-CacheBrowser has been written by Alexandre Daussy [link to my website] / Kureb [link to my github] licenced under CC BY 3.0 [link to Creative Commons]
+CacheBrowser has been written by [Alexandre DAUSSY](http://alexandredaussy.fr/ "my website") / [Kureb](https://github.com/Kureb "my github profile") licenced under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/ "licence")
