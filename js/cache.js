@@ -60,16 +60,18 @@ function cacheBrowsing() {
   * and indicates whether the page exists (reponse codes 200 - 299 ) or not
   * (response codes 400 - 499)
   */
+  var successfull = false;
   $.ajax({
     type: 'HEAD',
     url: cacheViewUrl,
     success: function() {
+      successfull = true;
       chrome.runtime.sendMessage({
         redirect: cacheViewUrl
       })
     },
-    error: function() {
-      // page does not exist
+    complete: function() {
+      if (!successfull)
       $.notify(chrome.i18n.getMessage("noCacheAvailable"), "warn", { clickToHide: true, autoHide: false });
     }
   });
