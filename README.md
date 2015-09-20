@@ -1,4 +1,4 @@
-_**CacheBrowser**_ is a Chrome Extension which allows you to navigate through the Google Cache without going back to the original site when you click a link.
+_**Webcache Browser**_ is a Chrome Extension which allows you to navigate through the Google Cache without going back to the original site when you click a link.
 
 **The Google What ?**
 > Google Cache is normally referred as the copies of the web pages cached by Google. Google crawls the web and takes snapshots of each page as a backup just in case the current page is not available. These pages then become part of Google's cache. These Google cached pages can be extremely useful if a site is temporary down, you can always access these page by visiting Google’s cached version.
@@ -11,7 +11,7 @@ As you may know, the fastest way to view a cached version of a webpage is to add
 But, if the page is dynamically generated, you may have a 404 error from Google Cache itself.
 Secondly, if you are on a Google cached page and you click on whatever link you find on the page, you will quit the cached version and go back to the original site, which may still be unavailable.
 
-With CacheBrowser, you no longer need to worry about this two points. You can click, click, click again, click a thousand times and you will still be redirected to the cached version except when it is impossible. When the extension finds that you will arrived on a 404 error of Google Cache itself, CacheBrowser let you where you are but notify you (in the top-right corner) that where is no cache available at this moment for this page.
+With Webcache Browser, you no longer need to worry about this two points. You can click, click, click again, click a thousand times and you will still be redirected to the cached version except when it is impossible. When the extension finds that you will arrived on a 404 error of Google Cache itself, Webcache Browser let you where you are but notify you (in the top-right corner) that where is no cache available at this moment for this page.
 
 
 ***
@@ -31,7 +31,7 @@ If you have just the need to see the cached version of the current page without 
 ![contextMenu](https://cloud.githubusercontent.com/assets/3968618/9977986/92b61dd2-5f1c-11e5-8bb9-d32c324319ab.png)
 
 
-The **autodetection** option allows you to browse normally th internet, until you reach a unavailable page. At this moment, CacheBrowser will detect it and redirect you to the cached version if it exists.
+The **autodetection** option allows you to browse normally th internet, until you reach a unavailable page. At this moment, Webcache Browser will detect it and redirect you to the cached version if it exists.
 
 
 
@@ -40,7 +40,7 @@ The **autodetection** option allows you to browse normally th internet, until yo
 **What's next ?**
 
 It is planned to add some others features like :
-* <s>Autodetection option : If a webpage is not found, CacheBrowser will automatically redirect to the cached version</s> : Done in 1.3.0
+* <s>Autodetection option : If a webpage is not found, Webcache Browser will automatically redirect to the cached version</s> : Done in 1.3.0
 * Use of others cache services like Wayback Machine and/or Coral CDN
 * <s>Internationalization (i18n) :   Adapt the extension to various languages</s> : Done in 1.2.0
 
@@ -58,4 +58,4 @@ I am unable to automatically change all links of a page by the cached version be
 * Use of Javascript librairie [JQuery](https://jquery.org "jquery") under MIT license
 * Use of Javascript librairie [Notify](http://notifyjs.com/ "notify") under MIT license
 
-CacheBrowser has been written by [Alexandre DAUSSY](http://alexandredaussy.fr/ "my website") / [Kureb](https://github.com/Kureb "my github profile") licenced under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/ "licence")
+Webcache Browser has been written by [Alexandre DAUSSY](http://alexandredaussy.fr/ "my website") / [Kureb](https://github.com/Kureb "my github profile") licenced under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/ "licence")
