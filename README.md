@@ -18,7 +18,8 @@ With CacheBrowser, you no longer need to worry about this two points. You can cl
 
 **How do I make it works ?**
 
-Install it from [insert chrome market link when it's released]. You will now have a new extension icon to the right of your address bar. ![capture d ecran 2015-09-20 a 14 05 08](https://cloud.githubusercontent.com/assets/3968618/9980629/8fa51c90-5fa0-11e5-9e3f-a38beb91062f.png)
+Install it from [insert chrome market link when it's released]. 
+<br> ![icon](https://cloud.githubusercontent.com/assets/3968618/9980629/8fa51c90-5fa0-11e5-9e3f-a38beb91062f.png) You will now have a new extension icon to the right of your address bar. 
 <br> Even if it is just freshly installed, you can still browse the web without being disturbed by a redirection to the webcache, because the default behavior of the extension is to let you browse normally unless you specify your need to view the cached version.
 
 If you want to enable the feature, you have to click on the extension's icon and select the checkbox. From this moment CacheBrowser is active. If you are done, you can disable it by the same way : click on the icon and unselect the checkbox.
