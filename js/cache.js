@@ -3,18 +3,52 @@
  * it calls the function which provides
  * him the cached version of the current site
  */
-function cacheCheck() {
-  chrome.storage.sync.get('cache-browser', function(data) {
-    if(data["cache-browser"] == true)
-      cacheBrowsing();
-  });
+function checkOptions() {
+
+chrome.storage.sync.get(null, function(items) {
+  var allKeys = Object.keys(items);
+  for (var item in items) {
+    if (items.hasOwnProperty(item)) {
+      //$.notify(item + ' ' + items[item]);
+      if(items[item]) {
+        switch (item) {
+          case "autodetection":
+            autoDetection();
+            break;
+          case "cache-browser":
+            cacheBrowsing();
+            break;
+        }
+      }
+    }
+  }
+});
+
 }
 
+/* For each page visited, detects if there is a need to view
+ * a cached version because of unavailability
+ */
+function autoDetection() {
+  //$.notify("in autodection()");
+  var currentUrl = window.location.href;
+  $.ajax({
+    type: 'HEAD',
+    url: currentUrl,
+    /*success: function() {
+      $.notify("No need to redirect");
+    },*/
+    error: function() {
+      cacheBrowing();
+    }
+  });
+}
 
 /* Provides the cached version of the current site if
  * its available, otherwise, warns the user with a notification
  */
 function cacheBrowsing() {
+  //$.notify("in cacheBrowsing()");
   var currentUrl = window.location.href;
   var currentProtocol = window.location.protocol;
   var searchBaseUrl = currentProtocol + "//webcache.googleusercontent.com/search?q=cache%3A";
@@ -42,7 +76,7 @@ function cacheBrowsing() {
 }
 
 /* When the page is loaded, we call the cacheCheck function */
-cacheCheck();
+checkOptions();
 
 /* Looking if somebody clicks on the context menu */
 chrome.extension.onMessage.addListener(function (message, sender, callback) {

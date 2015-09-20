@@ -21,7 +21,12 @@
 
   "checkBoxCacheBrowsing": {
     "message": "Enable cache browsing ?",
-    "description": "Ask user to enable/disable"
+    "description": "Ask user to enable/disable the constant redirection"
+  },
+
+  "checkBoxAutoDetection": {
+    "message": "Enable autodetection ?",
+    "description": "Ask user to enable/disable autodetection of unavailable pages"
   }
 
 }

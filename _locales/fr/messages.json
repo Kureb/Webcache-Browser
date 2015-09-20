@@ -21,7 +21,12 @@
 
   "checkBoxCacheBrowsing": {
     "message": "Activer la navigation dans le cache ?",
-    "description": "Permet d'activer/désactiver"
+    "description": "Permet d'activer/désactiver la redirection constante"
+  },
+
+  "checkBoxAutoDetection": {
+    "message": "Activer la détection automatique ?",
+    "description": "Permet d'activer la détection automatique des pages inaccessibles"
   }
 
 }
