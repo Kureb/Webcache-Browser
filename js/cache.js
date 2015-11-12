@@ -39,7 +39,7 @@ function autoDetection() {
       $.notify("No need to redirect");
     },*/
     error: function() {
-      cacheBrowing();
+      cacheBrowsing();
     }
   });
 }
