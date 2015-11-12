@@ -35,11 +35,10 @@ function autoDetection() {
   $.ajax({
     type: 'HEAD',
     url: currentUrl,
-    /*success: function() {
-      $.notify("No need to redirect");
-    },*/
-    error: function() {
-      cacheBrowsing();
+    error: function(jqXHR, textStatus, errorThrown) {
+      console.log('jqHRX : ' + jqXHR + ' textStatus : ' + textStatus + ' errorThrown : ' + errorThrown);
+      if (errorThrown != "OK")
+        cacheBrowsing();
     }
   });
 }
@@ -57,7 +56,7 @@ function cacheBrowsing() {
   /* Before making the redirection, check if
   * the request come back with no status code (404..)
   * Doing a HEAD request instead of the default GET will only returns the headers
-  * and indicates whether the page exists (reponse codes 200 - 299 ) or not
+  * and indicates whether the page exists (response codes 200 - 299 ) or not
   * (response codes 400 - 499)
   */
   var successfull = false;
