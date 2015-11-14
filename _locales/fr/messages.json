@@ -27,6 +27,21 @@
   "checkBoxAutoDetection": {
     "message": "Activer la détection automatique ?",
     "description": "Permet d'activer la détection automatique des pages inaccessibles"
+  },
+
+  "options": {
+    "message": "Options",
+    "description": "Options de l'extension"
+  },
+
+  "infos": {
+    "message": "Plus d'infos sur ",
+    "description": "Pour introduire le lien github"
+  },
+
+  "linkGithub": {
+    "message": "mon github",
+    "description": "github"
   }
 
 }

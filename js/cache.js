@@ -36,7 +36,7 @@ function autoDetection() {
     type: 'HEAD',
     url: currentUrl,
     error: function(jqXHR, textStatus, errorThrown) {
-      console.log('jqHRX : ' + jqXHR + ' textStatus : ' + textStatus + ' errorThrown : ' + errorThrown);
+      console.log('jqHRX : ' + JSON.stringify(jqXHR) + ' textStatus : ' + textStatus + ' errorThrown : ' + errorThrown);
       if (errorThrown != "OK")
         cacheBrowsing();
     }

@@ -27,6 +27,21 @@
   "checkBoxAutoDetection": {
     "message": "Enable autodetection ?",
     "description": "Ask user to enable/disable autodetection of unavailable pages"
+  },
+
+  "options": {
+    "message": "Options",
+    "description": "Extension's options"
+  },
+
+  "infos": {
+    "message": "More infos on ",
+    "description": "To introduce github's link"
+  },
+
+  "linkGithub": {
+    "message": "my github",
+    "description": "github"
   }
 
 }
