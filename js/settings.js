@@ -13,30 +13,31 @@ document.addEventListener('DOMContentLoaded', function(){
   var i18nCheckBoxAutoDetection = chrome.i18n.getMessage("checkBoxAutoDetection");
   document.getElementById("auto_detection").innerHTML = i18nCheckBoxAutoDetection;
 
-/*
   var i18nInfos = chrome.i18n.getMessage("infos");
   document.getElementById("infos").textContent = i18nInfos;
 
   var i18nLinkGithub = chrome.i18n.getMessage("linkGithub");
   document.getElementById("linkGithub").textContent = i18nLinkGithub;
-*/
+
 
 
   /* watch the checkboxes 'cache-browser' and 'autodetection'
    * Both can't be check at the same time but both can be uncheck
    * at the same time
    */
-  var input = document.getElementById('cache-browser');
+  var active = document.getElementById('cache-browser');
   var autodetection = document.getElementById('autodetection');
 
-  /* cvache-browser */
+  /* cache-browser */
   chrome.storage.sync.get("cache-browser", function(data){
-    input.checked = data["cache-browser"];
+    active.checked = data["cache-browser"];
   });
   /* add listener on change event */
-  input.addEventListener("change", function(){
-    chrome.storage.sync.set({'cache-browser': input.checked});
+  active.addEventListener("change", function(){
+    chrome.storage.sync.set({'cache-browser': active.checked});
     autodetection.checked = false;
+    chrome.storage.sync.set({'autodetection': false});
+
   });
 
   /* autodetection */
@@ -46,14 +47,16 @@ document.addEventListener('DOMContentLoaded', function(){
   /* add listener on change event */
   autodetection.addEventListener("change", function(){
       chrome.storage.sync.set({'autodetection': autodetection.checked});
-      input.checked = false;
+      active.checked = false;
+      chrome.storage.sync.set({'cache-browser': false});
   });
 
   /* open links in a new tab */
-  document.getElementByTag("a").addEventListener('click',function(e){
+  document.getElementById("linkGithub").addEventListener('click',function(e){
     chrome.tabs.create({
       url: e.target.href
     })
   });
+
 
 });
