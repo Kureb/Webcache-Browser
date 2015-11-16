@@ -18,7 +18,7 @@ With Webcache Browser, you no longer need to worry about this two points. You ca
 
 **How do I make it works ?**
 
-Install it from [insert chrome market link when it's released]. 
+Install it from [chrome web store](https://chrome.google.com/webstore/detail/webcache-browser/hpfdnbgcidlajjdipdfdehdabklpnfcd "web store"). 
 <br> ![icon](https://cloud.githubusercontent.com/assets/3968618/9980629/8fa51c90-5fa0-11e5-9e3f-a38beb91062f.png) You will now have a new extension icon to the right of your address bar. 
 <br> Even if it is just freshly installed, you can still browse the web without being disturbed by a redirection to the webcache, because the default behavior of the extension is to let you browse normally unless you specify your need to view the cached version.
 
