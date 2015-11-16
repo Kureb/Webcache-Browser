@@ -57,5 +57,6 @@ I am unable to automatically change all links of a page by the cached version be
 * Icons made by Freepik from [flaticon](www.flaticon.com "flaticon") is licensed by CC BY 3.0
 * Use of Javascript librairie [JQuery](https://jquery.org "jquery") under MIT license
 * Use of Javascript librairie [Notify](http://notifyjs.com/ "notify") under MIT license
+* Use of "Flat UI - Custom checkboxes" by [Geoffrey Crofte](http://codepen.io/anon/pen/XmOVEa "Flat UI")
 
 Webcache Browser has been written by [Alexandre DAUSSY](http://alexandredaussy.fr/ "my website") / [Kureb](https://github.com/Kureb "my github profile") licenced under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/ "licence")
