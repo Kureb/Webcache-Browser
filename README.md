@@ -24,11 +24,14 @@ Install it from [insert chrome market link when it's released].
 
 If you want to enable the feature, you have to click on the extension's icon and select the checkbox. From this moment CacheBrowser is active. If you are done, you can disable it by the same way : click on the icon and unselect the checkbox.
 
-![checkbox](https://cloud.githubusercontent.com/assets/3968618/9743325/fc696488-5665-11e5-8836-33b64cb1b307.png)
+
+![checkbox](https://cloud.githubusercontent.com/assets/3968618/11193085/ef68cf56-8ca4-11e5-92ba-ded45b91c85c.png)
+
+
 
 If you have just the need to see the cached version of the current page without lost some time to enable, reload, dowhateveryouwantonthepage, disable, you also have the possibility to be redirect directly through the item in the context menu.
 
-![contextMenu](https://cloud.githubusercontent.com/assets/3968618/9977986/92b61dd2-5f1c-11e5-8bb9-d32c324319ab.png)
+![contextMenu](https://cloud.githubusercontent.com/assets/3968618/11193086/ef7f404c-8ca4-11e5-9e5b-5d4521d0c67a.png)
 
 
 The **autodetection** option allows you to browse normally th internet, until you reach a unavailable page. At this moment, Webcache Browser will detect it and redirect you to the cached version if it exists.
@@ -41,16 +44,11 @@ The **autodetection** option allows you to browse normally th internet, until yo
 
 It is planned to add some others features like :
 * <s>Autodetection option : If a webpage is not found, Webcache Browser will automatically redirect to the cached version</s> : Done in 1.3.0
-* Use of others cache services like Wayback Machine and/or Coral CDN
 * <s>Internationalization (i18n) :   Adapt the extension to various languages</s> : Done in 1.2.0
+* Any ideas?
 
 ***
 
-**What's impossible ?**
-
-I am unable to automatically change all links of a page by the cached version because either I make no verification and you may arrived on a 404 of Google cache, or I make the verifications .. and Google kicked me because of the height number of request done in a small time. Second case is unthinkable and first one is not smart. I prefer let you click on a link and make the verification at this moment even if it is a little bit longer than normally browse the website.
-
-***
 
 **Copyright**
 
