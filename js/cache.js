@@ -33,11 +33,9 @@ function autoDetection() {
   //$.notify("in autodection()");
   var currentUrl = window.location.href;
   $.ajax({
-    type: 'HEAD',
+    type: 'GET',
     url: currentUrl,
-    error: function(jqXHR, textStatus, errorThrown) {
-      console.log('jqHRX : ' + JSON.stringify(jqXHR) + ' textStatus : ' + textStatus + ' errorThrown : ' + errorThrown);
-      if (errorThrown != "OK")
+    error: function() {
         cacheBrowsing();
     }
   });
