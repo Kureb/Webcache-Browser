@@ -35,6 +35,7 @@ function autoDetection() {
   $.ajax({
     type: 'GET',
     url: currentUrl,
+    dataType: 'html',
     error: function() {
         cacheBrowsing();
     }
