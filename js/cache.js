@@ -34,16 +34,19 @@ function autoDetection() {
   var currentUrl = window.location.href;
   $.ajax({
     type: 'GET',
+    async: true,
+    crossDomain: true,
+    headers: { 'Cache-Control': 'no-cache'},
     url: currentUrl,
     dataType: 'html',
-    error: function() {
-        cacheBrowsing();
+    error: function () {
+      cacheBrowsing();
     }
   });
 }
 
 /* Provides the cached version of the current site if
- * its available, otherwise, warns the user with a notification
+ * it's available, otherwise, warns the user with a notification
  */
 function cacheBrowsing() {
   //$.notify("in cacheBrowsing()");
@@ -52,7 +55,7 @@ function cacheBrowsing() {
   var searchBaseUrl = currentProtocol + "//webcache.googleusercontent.com/search?q=cache%3A";
   var cacheViewUrl = searchBaseUrl + encodeURIComponent(currentUrl);
 
-  /* Before making the redirection, check if
+ /* Before making the redirection, check if
   * the request come back with no status code (404..)
   * Doing a HEAD request instead of the default GET will only returns the headers
   * and indicates whether the page exists (response codes 200 - 299 ) or not
@@ -70,7 +73,7 @@ function cacheBrowsing() {
     },
     complete: function() {
       if (!successfull)
-      $.notify(chrome.i18n.getMessage("noCacheAvailable"), "warn", { clickToHide: true, autoHide: false });
+        $.notify(chrome.i18n.getMessage("noCacheAvailable"), "warn", { clickToHide: true, autoHide: false });
     }
   });
 }
