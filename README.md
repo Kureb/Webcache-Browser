@@ -18,7 +18,7 @@ With Webcache Browser, you no longer need to worry about this two points. You ca
 
 Install it from [chrome web store](https://chrome.google.com/webstore/detail/webcache-browser/hpfdnbgcidlajjdipdfdehdabklpnfcd "web store"). 
 <br> ![icon](https://cloud.githubusercontent.com/assets/3968618/9980629/8fa51c90-5fa0-11e5-9e3f-a38beb91062f.png) You will now have a new extension icon to the right of your address bar. 
-<br> The default behavior of the extension is to let you browse normally the web until it find an unvailable page. At this moment it will let you see the cached version. It is the **autodetection$$ feature.
+<br> The default behavior of the extension is to let you browse normally the web until it find an unvailable page. At this moment it will let you see the cached version. It is the **autodetection** feature.
 
 If you want to enable the feature, you have to click on the extension's icon and select the checkbox. From this moment CacheBrowser's autodetection is no longer active. You can browse the web without being disturbed with redirection.
 
